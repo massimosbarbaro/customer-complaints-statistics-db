@@ -10,9 +10,9 @@ authors:
     orcid: "https://orcid.org/0009-0006-8965-9013"
 license: MIT
 date-released: "1998-09-15"
-repository-code: "https://github.com/massimosbarbaro/customer-complaints-statistics-access"
+repository-code: "https://github.com/massimosbarbaro/customer-complaints-statistics-db"
 keywords:
-  - "Microsoft Access"
+  - "db"
   - "quality management"
   - "customer complaints"
   - "defect statistics"

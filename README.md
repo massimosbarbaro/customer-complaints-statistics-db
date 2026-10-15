@@ -25,19 +25,19 @@ I designed and programmed this application in 1998–2000. It is published here 
 
 ## Technology
 
-Microsoft Access 2.0 format (.mdb), 44 forms, 131 reports, 308 queries and 144 macros.
+db, 2.0 format (.mdb), 44 forms, 131 reports, 308 queries and 144 macros.
 
 ## Repository contents
 
 | Path | Content |
 |---|---|
-| `database/` | The Access application, emptied of all data. |
+| `database/` | The database application, emptied of all data. |
 | `source/queries/` | SQL of the saved queries. |
 | `docs/schema.md` | Tables and fields. |
 
 ## What is not included
 
-The database is published **empty**: every table has been emptied, the file compacted and the unused space inside its pages overwritten with zeros, so no record of the original data survives. Logos of the organisations for which the program was built have been blanked inside the forms, and the names of organisations, people and places in captions and code have been replaced with neutral text of the same length; the application is otherwise the original file. The file is in Microsoft Access 2.0 format: it opens in Access 2.0, 95 and 97 and can be converted by Access 97–2003; later versions of Access cannot open it.
+The database is published **empty**: every table has been emptied, the file compacted and the unused space inside its pages overwritten with zeros, so no record of the original data survives. Logos of the organisations for which the program was built have been blanked inside the forms, and the names of organisations, people and places in captions and code have been replaced with neutral text of the same length; the application is otherwise the original file. The file is in the version 2.0 db format (1994): it opens with versions 2.0, 95 and 97 of the database software and can be converted by the 97–2003 versions; later versions cannot open it.
 
 ## Related repositories
 
@@ -48,7 +48,7 @@ The database is published **empty**: every table has been emptied, the file comp
 
 Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*).
 
-> Sbarbaro, Massimo. 1998. *Reclami: customer complaints, defect statistics and quality index (first version)*. Software (db, 1998–2000), version 1.0. GitHub. https://github.com/massimosbarbaro/customer-complaints-statistics-access.
+> Sbarbaro, Massimo. 1998. *Reclami: customer complaints, defect statistics and quality index (first version)*. Software (db, 1998–2000), version 1.0. GitHub. https://github.com/massimosbarbaro/customer-complaints-statistics-db.
 
 ## License
 
