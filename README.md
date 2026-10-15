@@ -1,5 +1,7 @@
 # Reclami: customer complaints, defect statistics and quality index (first version)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23398823.svg)](https://doi.org/10.5281/zenodo.23398823)
+
 *Reclami dei clienti, statistiche dei difetti e indice di qualità (prima versione)*
 
 **db** · 1998–2000 · version 1.0  
@@ -46,9 +48,9 @@ The database is published **empty**: every table has been emptied, the file comp
 
 ## How to cite
 
-Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*).
+Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). The release is archived on Zenodo with the DOI [10.5281/zenodo.23398823](https://doi.org/10.5281/zenodo.23398823).
 
-> Sbarbaro, Massimo. 1998. *Reclami: customer complaints, defect statistics and quality index (first version)*. Software (db, 1998–2000), version 1.0. GitHub. https://github.com/massimosbarbaro/customer-complaints-statistics-db.
+> Sbarbaro, Massimo. 1998. *Reclami: customer complaints, defect statistics and quality index (first version)*. Software (db, 1998–2000), version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23398823.
 
 ## License
 
