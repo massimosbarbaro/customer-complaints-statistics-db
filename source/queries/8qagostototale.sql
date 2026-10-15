@@ -1,0 +1,2 @@
+SELECT DISTINCTROW QualitaAgosto.[8agostogen_Difetto], QualitaAgosto.SommadiConteggiodiCommessa, QualitaAgosto.[8agosto300_Difetto], QualitaAgosto.SommadiConteggiodiCommessa1, QualitaAgosto.[8agosto1000_Difetto], QualitaAgosto.SommadiConteggiodiCommessa2, QualitaAgosto.[8agosto+1000_Difetto], QualitaAgosto.SommadiConteggiodiCommessa3, ([QualitaAgosto]![SommadiConteggiodiCommessa1]*1)+([QualitaAgosto]![SommadiConteggiodiCommessa2]*3)+([QualitaAgosto]![SommadiConteggiodiCommessa3]*5) AS Indice
+FROM QualitaAgosto;

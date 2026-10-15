@@ -1,0 +1,2 @@
+SELECT DISTINCTROW Querycontdicembre.[ConteggiodiDuplicato di reclamo], Querycontdic300.[ConteggiodiDuplicato di reclamo], Querycontdic1000.[ConteggiodiDuplicato di reclamo], [Querycontdic+1000].[ConteggiodiDuplicato di reclamo], ([Querycontdic300].[ConteggiodiDuplicato di reclamo]*1)+([Querycontdic1000].[ConteggiodiDuplicato di reclamo]*3)+([Querycontdic+1000].[ConteggiodiDuplicato di Reclamo]*5) AS [Indice mensile]
+FROM Querycontdicembre, Querycontdic300, Querycontdic1000, [Querycontdic+1000];

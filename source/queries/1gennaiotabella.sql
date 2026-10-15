@@ -1,0 +1,3 @@
+SELECT DISTINCTROW [1gennaiogen].Difetto, Sum([1gennaiogen].ConteggiodiCommessa) AS SommadiConteggiodiCommessa, [1gennaio300].Difetto, Sum([1gennaio300].ConteggiodiCommessa) AS SommadiConteggiodiCommessa1, [1gennaio1000].Difetto, Sum([1gennaio1000].ConteggiodiCommessa) AS SommadiConteggiodiCommessa2, [1gennaio+1000].Difetto, Sum([1gennaio+1000].ConteggiodiCommessa) AS SommadiConteggiodiCommessa3 INTO Qualitagennaio
+FROM ((1gennaiogen LEFT JOIN 1gennaio300 ON [1gennaiogen].Difetto = [1gennaio300].Difetto) LEFT JOIN 1gennaio1000 ON [1gennaiogen].Difetto = [1gennaio1000].Difetto) LEFT JOIN [1gennaio+1000] ON [1gennaiogen].Difetto = [1gennaio+1000].Difetto
+GROUP BY [1gennaiogen].Difetto, [1gennaio300].Difetto, [1gennaio1000].Difetto, [1gennaio+1000].Difetto;

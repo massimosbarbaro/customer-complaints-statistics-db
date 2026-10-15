@@ -1,0 +1,24 @@
+{
+  "title": "Reclami: customer complaints, defect statistics and quality index (first version) (db, 1998–2000)",
+  "upload_type": "software",
+  "publication_date": "1998-09-15",
+  "description": "<p><em>Reclami dei clienti, statistiche dei difetti e indice di qualità (prima versione)</em></p><p>This is the first complaint-management system of a plastic-film manufacturer, a database application written before the later program Reclami. Complaints are linked to the orders, shipments, customers and products imported from the company AS/400; for each complaint the quality office records defect, family, production line and external processing, the solution (accepted or rejected), the returned kilograms and the credit note, and marks when it has been passed to the accounts department. A large set of queries and reports produces monthly quality indices, defect and supplier charts and statistics by customer, order, product, family and sales network.</p><p>Designed and programmed by Massimo Sbarbaro in 1998–2000 (db). Published in 2026; all original data and the names of client organisations have been removed.</p>",
+  "creators": [
+    {
+      "name": "Sbarbaro, Massimo",
+      "orcid": "0009-0006-8965-9013"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Microsoft Access",
+    "quality management",
+    "customer complaints",
+    "defect statistics",
+    "AS/400",
+    "legacy software"
+  ],
+  "version": "1.0",
+  "language": "eng",
+  "notes": "Original development: 1998–2000."
+}

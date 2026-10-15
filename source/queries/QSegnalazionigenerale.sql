@@ -1,0 +1,2 @@
+SELECT DISTINCTROW Segnalazioni.[Reclamo numero], Segnalazioni.Data, Segnalazioni.Commessa, Segnalazioni.Difetto, Segnalazioni.[Famiglia dei prodotti], Segnalazioni.[Kg reclamati], DATI.CODPROD, DATI.DESPROD, DATI.FINITURA, DATI.SPESSORE, DATI.ALTEZZA, DATI.LARGHEZZA, DATI.ORIGINE, DATI.ORDINE, DATI.MACCHINA, DATI.NUMCOMM, DATI.ANCLI_1_DESCLI, DATI.RETE, DATI.CODCLI, DATI.ANCLI_DESCLI, DATI.DATAENT, DATI.QTAUSC, Segnalazioni.Esterno
+FROM DATI INNER JOIN Segnalazioni ON DATI.NUMCOMM = Segnalazioni.Commessa;

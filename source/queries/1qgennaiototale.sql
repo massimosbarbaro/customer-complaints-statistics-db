@@ -1,0 +1,2 @@
+SELECT DISTINCTROW Qualitagennaio.[1gennaiogen_Difetto], Qualitagennaio.SommadiConteggiodiCommessa, Qualitagennaio.[1gennaio300_Difetto], Qualitagennaio.SommadiConteggiodiCommessa1, Qualitagennaio.[1gennaio1000_Difetto], Qualitagennaio.SommadiConteggiodiCommessa2, Qualitagennaio.[1gennaio+1000_Difetto], Qualitagennaio.SommadiConteggiodiCommessa3, ([Qualitagennaio]![SommadiConteggiodiCommessa1]*1)+([Qualitagennaio]![SommadiConteggiodiCommessa2]*3)+([Qualitagennaio]![SommadiConteggiodiCommessa3]*5) AS Indice
+FROM Qualitagennaio;

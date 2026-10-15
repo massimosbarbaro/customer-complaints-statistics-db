@@ -1,0 +1,3 @@
+SELECT DISTINCTROW [8agostogen].Difetto, Sum([8agostogen].ConteggiodiCommessa) AS SommadiConteggiodiCommessa, [8agosto300].Difetto, Sum([8agosto300].ConteggiodiCommessa) AS SommadiConteggiodiCommessa1, [8agosto1000].Difetto, Sum([8agosto1000].ConteggiodiCommessa) AS SommadiConteggiodiCommessa2, [8agosto+1000].Difetto, Sum([8agosto+1000].ConteggiodiCommessa) AS SommadiConteggiodiCommessa3 INTO QualitaAgosto
+FROM ((8agostogen LEFT JOIN 8agosto300 ON [8agostogen].Difetto = [8agosto300].Difetto) LEFT JOIN 8agosto1000 ON [8agostogen].Difetto = [8agosto1000].Difetto) LEFT JOIN [8agosto+1000] ON [8agostogen].Difetto = [8agosto+1000].Difetto
+GROUP BY [8agostogen].Difetto, [8agosto300].Difetto, [8agosto1000].Difetto, [8agosto+1000].Difetto;
